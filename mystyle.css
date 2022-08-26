@@ -1,0 +1,32 @@
+#header1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+div.nav {
+    font-size: 1.3em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(4, 45, 169);
+    height: 20px;
+    width: 100%;
+    color: aliceblue;
+}
+
+div.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 20px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
