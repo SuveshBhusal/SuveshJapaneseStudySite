@@ -49,3 +49,14 @@ a:visited {
 td {
     border: 1px solid black;
 }
+
+h2.alhead {
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
