@@ -148,10 +148,11 @@
     div.explainbox {
         width: 50%;
         position: relative;
-        top: 300px;
+        float: right;
+        top: 270px;
     }
     
-    section {
-        position: relative;
-        border: 1px dotted black;
+    #sec1 {
+        width: 100%;
+        height: 600px;
     }
