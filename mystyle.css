@@ -105,3 +105,53 @@
         width: 100%;
         color: aliceblue;
     }
+    /* #explainhead {
+        text-align: center;
+    } */
+    /* #useshead,
+    p.usescontent {
+        display: inline;
+        float: left;
+    }
+    
+    #explainhead,
+    p.explaincontent {
+        display: inline;
+        float: right;
+    } */
+    /* p.usescontent {
+        padding-right: 500px;
+    }
+    
+    p.explaincontent {
+        padding-left: 500px;
+    } */
+    
+    #explainhead {
+        text-align: center;
+    }
+    
+    #useshead {
+        text-align: center;
+    }
+    
+    h2.grammarhead {
+        text-align: center;
+    }
+    
+    div.usebox {
+        float: left;
+        width: 50%;
+        position: absolute;
+    }
+    
+    div.explainbox {
+        width: 50%;
+        position: relative;
+        top: 300px;
+    }
+    
+    section {
+        position: relative;
+        border: 1px dotted black;
+    }
