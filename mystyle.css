@@ -156,3 +156,20 @@
         width: 100%;
         height: 600px;
     }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    iframe {
+        width: 60%;
+        height: 630px;
+    }
+    
+    div.centerembed {
+        text-align: center;
+    }
+    
+    #homepagecontent {
+        text-align: center;
+    }
