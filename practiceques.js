@@ -1,11 +1,10 @@
 function check() {
-    var question1 = document.quiz.jquestion1.value;
+    var question1 = document.jquiz.jquestion1.value;
     var correct = 0;
 
-
-    if jquestion1 == "いきました" (
+    if (question1 == "いきました") {
         correct++;
-
-    )
+    }
     document.getElementById("after_submit").style.visibility = "visible";
+    document.getElementById("number_correct").innerHTML = "Correct";
 }
