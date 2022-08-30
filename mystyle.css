@@ -70,6 +70,7 @@
     div.pagecontain {
         position: relative;
         min-height: 100vh;
+        /* background-image: url("19007.jpg"); */
     }
     
     div.pagewrap {
@@ -149,6 +150,8 @@
     
     #homepagecontent {
         text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     a:hover {
