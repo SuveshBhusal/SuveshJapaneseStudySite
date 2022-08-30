@@ -103,17 +103,18 @@
         color: aliceblue;
     }
     
-    #explainhead {
+    #explainhead,
+    #useshead,
+    h2.grammarhead {
         text-align: center;
     }
-    
-    #useshead {
+    /* #useshead {
         text-align: center;
     }
     
     h2.grammarhead {
         text-align: center;
-    }
+    } */
     
     div.usebox {
         float: left;
@@ -148,4 +149,6 @@
     
     #homepagecontent {
         text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
     }
