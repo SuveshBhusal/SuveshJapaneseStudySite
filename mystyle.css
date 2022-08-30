@@ -50,9 +50,6 @@
         color: white;
         text-decoration: none;
     }
-    /* table {
-    border: 1px solid black;
-} */
     
     td {
         border: 1px solid black;
@@ -105,27 +102,6 @@
         width: 100%;
         color: aliceblue;
     }
-    /* #explainhead {
-        text-align: center;
-    } */
-    /* #useshead,
-    p.usescontent {
-        display: inline;
-        float: left;
-    }
-    
-    #explainhead,
-    p.explaincontent {
-        display: inline;
-        float: right;
-    } */
-    /* p.usescontent {
-        padding-right: 500px;
-    }
-    
-    p.explaincontent {
-        padding-left: 500px;
-    } */
     
     #explainhead {
         text-align: center;
