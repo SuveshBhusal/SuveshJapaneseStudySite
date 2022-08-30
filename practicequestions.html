@@ -30,11 +30,12 @@
         <section>
             <div class="pagewrap">
                 <br>
-                <form>
-                    <label for="jquestion">What is the past tense of to go(<span class="japanese">いく</span>) in Japanese? Note:You must type in japanese with no kanji and no spaces</label>
-                    <input type="text" id="janswer" name="janswer">
+                <form id="jquiz" name="jquiz">
+                    <p>What is the past of to go in Japanese?</p>
+                    <input id="textbox" type="text" name="jquestion1">
+                    <input id="button" type="button" value="Check Yourself" onclick="check();">
                 </form>
-                <button type="button" id="myButton">Submit</button>
+
             </div>
 
         </section>

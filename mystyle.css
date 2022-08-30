@@ -154,3 +154,7 @@
     a:hover {
         text-decoration: underline white solid;
     }
+    
+    #after_submit {
+        visibility: hidden;
+    }
