@@ -12,6 +12,7 @@
     
     #header1 {
         text-align: center;
+        margin-top: -10px;
     }
     
     header {
@@ -48,15 +49,15 @@
         top: 46px; */
     }
     
-    div.nav div.dropdownitem {
+    div.nav div.dropdownitem a {
         display: none;
         color: white;
-        background-color: rgb(4, 45, 169);
+        background-color: rgba(4, 45, 169, 0.866);
         font-size: .85em;
         /* z-index: 100; */
     }
     
-    div.nav:hover div.dropdownitem {
+    div.nav:hover div.dropdownitem a {
         display: block;
     }
     
