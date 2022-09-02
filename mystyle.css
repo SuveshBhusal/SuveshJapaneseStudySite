@@ -6,7 +6,7 @@
         transition-duration: 1s;
         /* width: 100%; */
         margin: 0px;
-        background-image: linear-gradient(180deg, rgb(4, 45, 169), white);
+        background-image: radial-gradient(circle, white, lightblue, rgb(4, 45, 169));
     }
     
     span.japanese {
