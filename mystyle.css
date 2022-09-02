@@ -4,6 +4,8 @@
         font-family: "Open Sans", sans-serif;
         transition-property: all;
         transition-duration: 1s;
+        /* width: 100%; */
+        margin: 0px;
     }
     
     span.japanese {
@@ -81,7 +83,7 @@
     }
     
     table {
-        font-size: 2em;
+        font-size: 4em;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Noto Serif JP', serif;
@@ -94,7 +96,7 @@
     }
     
     div.pagewrap {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     
     div.footer {
@@ -141,6 +143,7 @@
         float: left;
         width: 50%;
         position: absolute;
+        text-align: center;
     }
     
     div.explainbox {
@@ -148,6 +151,7 @@
         position: relative;
         float: right;
         top: 270px;
+        text-align: center;
     }
     
     div.sec1 {
@@ -170,8 +174,8 @@
     
     #homepagecontent {
         text-align: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 30%;
+        margin-right: 30%;
         z-index: 1;
     }
     
