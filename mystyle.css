@@ -6,6 +6,7 @@
         transition-duration: 1s;
         /* width: 100%; */
         margin: 0px;
+        background-image: linear-gradient(180deg, rgb(4, 45, 169), white);
     }
     
     span.japanese {
@@ -15,6 +16,7 @@
     #header1 {
         text-align: center;
         margin-top: -10px;
+        color: white;
     }
     
     header {
@@ -32,6 +34,8 @@
         height: 20px;
         width: 100%;
         color: aliceblue;
+        border-top: white 1px solid;
+        border-bottom: white 1px solid;
     }
     
     div.navbar {
@@ -45,6 +49,7 @@
         padding-bottom: 5px;
         text-align: center;
         z-index: 2;
+        border-top: white 5px solid;
         /* padding-left: 0%;
         padding-right: 0%; */
         /* position: fixed;
@@ -80,6 +85,7 @@
     h2.alhead {
         align-items: center;
         text-align: center;
+        font-size: 1.5em;
     }
     
     table {
