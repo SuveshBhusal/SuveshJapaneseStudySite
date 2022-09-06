@@ -16,7 +16,7 @@ span.japanese {
 #header1 {
     text-align: center;
     margin-top: -10px;
-    color: white;
+    color: black;
 }
 
 header {
@@ -105,12 +105,12 @@ table {
 
 div.pagecontain {
     position: relative;
-    min-height: 100vh;
+    min-height: 120vh;
     /* background-image: url("19007.jpg"); */
 }
 
 div.pagewrap {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 div.footer {
@@ -228,4 +228,15 @@ a:hover {
     float: right;
     text-align: center;
     width: 50%;
+}
+
+#katakanalink,
+#hiraganalink {
+    text-align: center;
+}
+
+@media (max-width:459px) and (max-height:950px) {
+    div.pagecontain {
+        min-height: 1000px;
+    }
 }
