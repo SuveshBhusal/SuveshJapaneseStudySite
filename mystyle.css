@@ -1,242 +1,256 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Open+Sans:wght@300&display=swap');
-body {
-    font-family: "Open Sans", sans-serif;
-    transition-property: all;
-    transition-duration: 1s;
-    /* width: 100%; */
-    margin: 0px;
-    background-image: radial-gradient(circle, white, lightblue, rgb(4, 45, 169));
-}
-
-span.japanese {
-    font-family: 'Noto Serif JP', serif;
-}
-
-#header1 {
-    text-align: center;
-    margin-top: -10px;
-    color: black;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-}
-
-div.nav {
-    font-size: 1.3em;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(4, 45, 169);
-    height: 20px;
-    width: 100%;
-    color: aliceblue;
-    /* border-top: white 1px solid;
+            @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Open+Sans:wght@300&display=swap');
+            body {
+                font-family: "Open Sans", sans-serif;
+                /* transition-property: all;
+    transition-duration: 1s; */
+                /* width: 100%; */
+                margin: 0px;
+                background-image: radial-gradient(circle, white, lightblue, rgb(4, 45, 169));
+            }
+            
+            span.japanese {
+                font-family: 'Noto Serif JP', serif;
+            }
+            
+            #header1 {
+                text-align: center;
+                margin-top: -10px;
+                color: black;
+            }
+            
+            header {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            div.nav {
+                font-size: 1.3em;
+                padding-top: 5px;
+                padding-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: rgb(4, 45, 169);
+                height: 20px;
+                width: 100%;
+                color: aliceblue;
+                /* border-top: white 1px solid;
         border-bottom: white 1px solid; */
-}
-
-div.navbar {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    height: 20px;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    z-index: 2;
-    border-top: white 5px solid;
-    /* padding-left: 0%;
+            }
+            
+            div.navbar {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-around;
+                height: 20px;
+                display: flex;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                text-align: center;
+                z-index: 2;
+                border-top: white 5px solid;
+                /* padding-left: 0%;
         padding-right: 0%; */
-    /* position: fixed;
+                /* position: fixed;
         top: 46px; */
-}
-
-div.nav div.dropdown {
-    display: none;
-    color: white;
-    background-color: rgba(4, 45, 169, 0.866);
-    font-size: .85em;
-    /* z-index: 100; */
-}
-
-div.nav:hover div.dropdown {
-    display: block;
-}
-
-div.dropdown {
-    border-bottom: 0px;
-    border-radius: 5px;
-}
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-
-/* td {
+            }
+            
+            div.nav div.dropdown {
+                display: none;
+                color: white;
+                background-color: rgba(4, 45, 169, 0.866);
+                font-size: .85em;
+                /* z-index: 100; */
+            }
+            
+            div.nav:hover div.dropdown {
+                display: block;
+            }
+            
+            div.dropdown {
+                border-bottom: 0px;
+                border-radius: 5px;
+            }
+            
+            a:link {
+                color: white;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: white;
+                text-decoration: none;
+            }
+            /* td {
         /* border: 1px solid black; */
-
-
-/* } */
-
-*/ h2.alhead {
-    align-items: center;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-table {
-    font-size: 4em;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Noto Serif JP', serif;
-}
-
-div.pagecontain {
-    position: relative;
-    min-height: 120vh;
-    /* background-image: url("19007.jpg"); */
-}
-
-div.pagewrap {
-    padding-bottom: 20px;
-}
-
-div.footer {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-    height: 20px;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    /* margin-top: 1000px; */
-    position: absolute;
-    bottom: 0;
-}
-
-div.fcontent {
-    font-size: 1.3em;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(4, 45, 169);
-    height: 20px;
-    width: 100%;
-    color: aliceblue;
-}
-
-div.explainhead,
-div.useshead,
-h2.grammarhead {
-    text-align: center;
-}
-
-
-/* #useshead {
+            /* } */
+            
+            */ h2.alhead {
+                align-items: center;
+                text-align: center;
+                font-size: 1.5em;
+            }
+            
+            table {
+                font-size: 4em;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Noto Serif JP', serif;
+            }
+            
+            div.pagecontain {
+                position: relative;
+                min-height: 100vh;
+                /* background-image: url("19007.jpg"); */
+            }
+            
+            div.pagewrap {
+                padding-bottom: 20px;
+            }
+            
+            div.footer {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-evenly;
+                height: 20px;
+                display: flex;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                text-align: center;
+                /* margin-top: 1000px; */
+                position: absolute;
+                bottom: 0;
+            }
+            
+            div.fcontent {
+                font-size: 1.3em;
+                padding-top: 5px;
+                padding-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: rgb(4, 45, 169);
+                height: 20px;
+                width: 100%;
+                color: aliceblue;
+            }
+            
+            div.explainhead,
+            div.useshead,
+            h2.grammarhead {
+                text-align: center;
+            }
+            /* #useshead {
         text-align: center;
     }
     
     h2.grammarhead {
         text-align: center;
     } */
-
-div.usebox {
-    float: left;
-    width: 50%;
-    position: absolute;
-    text-align: center;
-}
-
-div.explainbox {
-    width: 50%;
-    position: relative;
-    float: right;
-    top: 270px;
-    text-align: center;
-}
-
-div.sec1 {
-    width: 100%;
-    height: 600px;
-}
-
-h1 {
-    text-align: center;
-}
-
-iframe {
-    width: 70%;
-    height: 630px;
-}
-
-div.centerembed {
-    text-align: center;
-}
-
-#homepagecontent {
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    z-index: 1;
-}
-
-a:hover {
-    text-decoration: underline white solid;
-}
-
-#after_submit1 {
-    visibility: hidden;
-}
-
-#after_submit2 {
-    visibility: hidden;
-}
-
-
-/* input.textbox {
+            
+            div.usebox {
+                float: left;
+                width: 50%;
+                position: absolute;
+                text-align: center;
+            }
+            
+            div.explainbox {
+                width: 50%;
+                position: relative;
+                float: right;
+                top: px;
+                text-align: center;
+            }
+            
+            div.sec1 {
+                width: 100%;
+                height: 300px;
+                padding-bottom: 20px;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            iframe {
+                width: 70%;
+                height: 630px;
+            }
+            
+            div.centerembed {
+                text-align: center;
+            }
+            
+            #homepagecontent {
+                text-align: center;
+                margin-left: 30%;
+                margin-right: 30%;
+                z-index: 1;
+            }
+            
+            a:hover {
+                text-decoration: underline white solid;
+            }
+            
+            #after_submit1 {
+                visibility: hidden;
+            }
+            
+            #after_submit2 {
+                visibility: hidden;
+            }
+            /* input.textbox {
     margin-left: 50px;
 } */
-
-#button {
-    /* margin-left: 75px;
+            
+            #button {
+                /* margin-left: 75px;
     margin-top: 10px; */
-    background-color: white;
-}
-
-#pastquiz {
-    text-align: center;
-    width: 50%;
-    float: left;
-}
-
-#teformquiz {
-    float: right;
-    text-align: center;
-    width: 50%;
-}
-
-#katakanalink,
-#hiraganalink {
-    text-align: center;
-}
-
-@media (max-width:459px) and (max-height:950px) {
-    div.pagecontain {
-        min-height: 1000px;
-    }
-}
+                background-color: white;
+            }
+            
+            #pastquiz {
+                text-align: center;
+                width: 50%;
+                float: left;
+            }
+            
+            #teformquiz {
+                float: right;
+                text-align: center;
+                width: 50%;
+            }
+            
+            #katakanalink,
+            #hiraganalink {
+                text-align: center;
+            }
+            
+            @media (max-width:580px) and (max-height:950px) {
+                #homepagecontent {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                }
+                div.nav {
+                    font-size: 1em;
+                    padding-top: 9px;
+                }
+                div.fcontent {
+                    font-size: .8em;
+                }
+                div.footer {
+                    height: 10px;
+                }
+            }
+            
+            @media (max-width:950px) and (max-height:580px) {
+                div.pagecontain {
+                    min-height: 200vh;
+                }
+                #homepagecontent {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                }
+            }
