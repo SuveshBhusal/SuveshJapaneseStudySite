@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Suvesh's Japanese Class</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="flashcard.css">
+    <meta name="viewport" content="width-device-width, intial-scale-1">
+</head>
+
+<body>
+    <div id="header1">
+        <h1>Suvesh's Japanese Class <span class="japanese">スヴェシュの日本語クラス</span></h1>
+    </div>
+    <header>
+        <div class="navbar">
+            <div class="nav"><a href="homepage.html">Home</a></div>
+            <div class="nav">
+                <a href="alphabet.html">Alphabets</a>
+                <div class="dropdown">
+                    <div class="dropdownitem">
+                        <a href="alphabet.html#hiraganalink">Hiragana</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="alphabet.html#katakanalink">Katakana</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav">
+                <a href="vocab.html">Vocabulary</a>
+                <div class="dropdown">
+                    <div class="dropdownitem">
+                        <a href="vocab.html#basicverbslink">Basic Verbs</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="vocab.html#commonplacelink">Common Places</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="vocab.html#foodndrinkslink">Food and Drinks</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="kanji.html">Kanji</a>
+                <div class="dropdown">
+                    <div class="dropdownitem">
+                        <a href="kanji.html#numkanjilink">Numbers</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="kanji.html#dowkanjilink">Days of the Week</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="kanji.html#adjectiveskanjilink">Adjectives</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="kanji.html#bodykanjilink">Body Parts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="grammarrules.html">Grammar</a>
+                <div class="dropdown">
+                    <div class="dropdownitem">
+                        <a href="grammarrules.html#pastformlink">Past Tense</a>
+                    </div>
+                    <div class="dropdownitem">
+                        <a href="grammarrules.html#adjectiveslink">Adjectives:Past and Present</a></div>
+                    <div class="dropdownitem">
+                        <a href="grammarrules.html#teformlink">Te Form</a></div>
+                    <div class="dropdownitem">
+                        <a href="grammarrules.html#shortformlink">Short Form</a></div>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="practicequestions.html">Practice</a>
+                <!-- <div class="dropdownitem">Past Tense</div>
+                <div class="dropdownitem">Te form</div> -->
+            </div>
+        </div>
+    </header>
+    <div class="pagecontain">
+        <div class="pagewrap">
+            <section>
+
+                <h2 id="basicverbslink">Basic Verbs</h2>
+                <div class="centerembed">
+                    <iframe id="verbsembed" src="https://quizlet.com/639420479/flashcards/embed?i=3mqpji&x=1jj1"></iframe>
+                    <div>
+            </section>
+            </div>
+            <br>
+            <footer>
+                <div class="footer">
+                    <div class="fcontent">Last Updated: 8/25/2022</div>
+                    <div class="fcontent">suvsal8@gmail.com(personal)</div>
+                </div>
+            </footer>
+            </div>
+</body>
+
+</html>
