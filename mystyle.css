@@ -146,6 +146,10 @@ h2.grammarhead {
     text-align: center;
 }
 
+h2.grammarhead {
+    margin-bottom: 5px;
+}
+
 
 /* #useshead {
         text-align: center;
@@ -156,7 +160,6 @@ h2.grammarhead {
     } */
 
 div.usebox {
-    float: left;
     width: 50%;
     position: absolute;
     text-align: center;
@@ -215,7 +218,8 @@ a:hover {
     margin-left: 50px;
 } */
 
-#button {
+#button,
+#button2 {
     /* margin-left: 75px;
     margin-top: 10px; */
     background-color: white;
@@ -253,20 +257,41 @@ a:hover {
         margin-right: 10%;
     }
     div.nav {
-        font-size: 1em;
-        padding-top: 9px;
+        font-size: .8em;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    div.navbar {
+        width: 1000px;
     }
     div.fcontent {
-        font-size: 0.8em;
+        font-size: .8em;
+        padding-left: 20px;
     }
     div.footer {
         height: 10px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    table {
+        font-size: 1.5em;
+    }
+    div.sec1 {
+        height: 600px;
+    }
+    div.explainbox {
+        float: none;
+    }
+    div.pagecontain {
+        min-height: 140vh;
     }
 }
 
 @media (max-width: 950px) and (max-height: 580px) {
     div.pagecontain {
-        min-height: 200vh;
+        min-height: 260vh;
     }
     #homepagecontent {
         margin-left: 10%;
