@@ -64,8 +64,13 @@ div.nav div.dropdown {
     /* z-index: 100; */
 }
 
+div.nav div.dropdown a {
+    font-size: .85em;
+}
+
 div.nav:hover div.dropdown {
     display: block;
+    font-size: .85em;
 }
 
 div.dropdown {
@@ -161,15 +166,12 @@ h2.grammarhead {
 
 div.usebox {
     width: 50%;
-    position: absolute;
     text-align: center;
     margin-left: 3%px;
 }
 
 div.explainbox {
     width: 50%;
-    position: relative;
-    float: right;
     top: 0px;
     text-align: center;
 }
@@ -179,6 +181,7 @@ div.sec1 {
     height: 300px;
     padding-bottom: 20px;
     margin-left: 10px;
+    display: flex;
 }
 
 h1,
