@@ -97,3 +97,7 @@ function check1() {
     document.getElementById("number_correct2").innerHTML =
         "You got " + correct + " correct.";
 }
+
+
+
+// https://www.youtube.com/watch?v=C7NsIRhoWuE used this video as a guide to create this quiz
