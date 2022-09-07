@@ -11,7 +11,7 @@ function check() {
     var question10 = document.quiz.question10.value;
     var correct = 0;
 
-    if (question1 == "いきました" || question1 == "行きました") {
+    if (question1 == "いきました") {
         correct++;
     }
     if (question2 == "たべました") {
