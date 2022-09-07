@@ -60,17 +60,17 @@ div.nav div.dropdown {
     display: none;
     color: white;
     background-color: rgba(4, 45, 169, 0.866);
-    font-size: 0.85em;
+    font-size: 1em;
     /* z-index: 100; */
 }
 
 div.nav div.dropdown a {
-    font-size: .85em;
+    font-size: 1em;
 }
 
 div.nav:hover div.dropdown {
     display: block;
-    font-size: .85em;
+    font-size: 1em;
 }
 
 div.dropdown {
@@ -312,7 +312,13 @@ section.embedcontain {
         font-size: 1.5em;
     }
     div.sec1 {
-        height: 300%;
+        display: flexbox;
+        text-align: center;
+        /* padding-top: 30%;
+        padding-bottom: 30%; */
+    }
+    div.pagewrap {
+        justify-content: space-evenly;
     }
     /* div.explainbox {
         float: none;
