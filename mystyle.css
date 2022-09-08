@@ -359,7 +359,7 @@
     
     @media (max-width: 950px) and (max-height: 580px) {
         div.pagecontain {
-            min-height: 260vh;
+            min-height: 300vh;
         }
         #homepagecontent {
             margin-left: 10%;
@@ -373,5 +373,8 @@
             text-align: center;
             margin-left: 10%;
             margin-right: 10%;
+        }
+        table {
+            font-size: 1.5em;
         }
     }
